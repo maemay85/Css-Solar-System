@@ -19,12 +19,14 @@ body {
   align-items: center;
   justify-content: space-around;
   width: 90vw;
+  height: 3vh;
   font-size: xx-small;
 }
 
 .nav-item {
   display: flex;
   padding: 0 .5rem;
+  height: 3vh;
   justify-content: center;
   align-items: center;
   border: solid .025rem;
@@ -34,11 +36,9 @@ body {
 
 .main-container {
   position: relative;
-  border: solid .025rem;
   margin-top: 1vh;
-  width: 90vw;
-  height: 85vh;
-  border-radius: .3rem;
+  width: 95vw;
+  height: 90vh;
 }
 
 .sun {
@@ -48,7 +48,7 @@ body {
   margin: -2.5rem 0 0 -2.5rem;
   border-radius: 50%;
   background-color: rgba(240, 231, 171, 0.848);
-  box-shadow: 0 0 20rem 4rem rgba(254, 237, 129, 0.62), 0 0 .2rem .01rem rgba(254, 238, 129, 0.858);
+  box-shadow: 0 0 20rem 3rem rgba(254, 237, 129, 0.52), 0 0 .3rem .01rem rgba(254, 238, 129, 0.858);
   width: 5rem;
   height: 5rem;
 }
